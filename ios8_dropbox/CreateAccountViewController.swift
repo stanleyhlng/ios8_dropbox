@@ -24,7 +24,7 @@ class CreateAccountViewController: UIViewController {
     
     @IBAction func onBack(sender: UIButton) {
         println("CreateAccountViewController - onBack")
-        dismissViewControllerAnimated(false, completion: nil)
+        navigationController?.popViewControllerAnimated(true);
     }
 
     /*

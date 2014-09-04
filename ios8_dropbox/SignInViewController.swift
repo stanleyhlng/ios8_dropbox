@@ -24,7 +24,7 @@ class SignInViewController: UIViewController {
     
     @IBAction func onBack(sender: UIButton) {
         println("SignInViewController - onBack")
-        dismissViewControllerAnimated(false, completion: nil)
+        navigationController?.popViewControllerAnimated(true);
     }
 
     /*
