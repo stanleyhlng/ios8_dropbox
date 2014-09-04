@@ -11,6 +11,12 @@
 		2029EA5E19B822F400CF129B /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA5D19B822F400CF129B /* CreateAccountRootViewController.swift */; };
 		2029EA6019B8235C00CF129B /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA5F19B8235C00CF129B /* CreateAccountViewController.swift */; };
 		2029EA6219B823E800CF129B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA6119B823E800CF129B /* SignInViewController.swift */; };
+		2029EA6519B8362D00CF129B /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA6419B8362D00CF129B /* TermsViewController.swift */; };
+		2029EA6719B8373B00CF129B /* CreateAccount2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA6619B8373B00CF129B /* CreateAccount2ViewController.swift */; };
+		2029EA6919B8386800CF129B /* CreateAccount3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA6819B8386800CF129B /* CreateAccount3ViewController.swift */; };
+		2029EA6B19B8399400CF129B /* CreateAccount4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA6A19B8399400CF129B /* CreateAccount4ViewController.swift */; };
+		2029EA6D19B83A4B00CF129B /* CreateAccount5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA6C19B83A4B00CF129B /* CreateAccount5ViewController.swift */; };
+		2029EA6F19B83BFE00CF129B /* CreateAccountTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA6E19B83BFE00CF129B /* CreateAccountTermsViewController.swift */; };
 		20FFD64119B80B8100C42B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FFD64019B80B8100C42B9A /* AppDelegate.swift */; };
 		20FFD64319B80B8100C42B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FFD64219B80B8100C42B9A /* ViewController.swift */; };
 		20FFD64619B80B8100C42B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FFD64419B80B8100C42B9A /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 		2029EA5D19B822F400CF129B /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		2029EA5F19B8235C00CF129B /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		2029EA6119B823E800CF129B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2029EA6419B8362D00CF129B /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		2029EA6619B8373B00CF129B /* CreateAccount2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount2ViewController.swift; sourceTree = "<group>"; };
+		2029EA6819B8386800CF129B /* CreateAccount3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount3ViewController.swift; sourceTree = "<group>"; };
+		2029EA6A19B8399400CF129B /* CreateAccount4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount4ViewController.swift; sourceTree = "<group>"; };
+		2029EA6C19B83A4B00CF129B /* CreateAccount5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount5ViewController.swift; sourceTree = "<group>"; };
+		2029EA6E19B83BFE00CF129B /* CreateAccountTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountTermsViewController.swift; sourceTree = "<group>"; };
 		20FFD63B19B80B8100C42B9A /* ios8_dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios8_dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FFD63F19B80B8100C42B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20FFD64019B80B8100C42B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +81,7 @@
 		2029EA5419B81DF200CF129B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2029EA6319B8351600CF129B /* Terms */,
 				2029EA5719B81EFE00CF129B /* Sign out */,
 				2029EA5619B81E1500CF129B /* Sign In */,
 				2029EA5A19B821E400CF129B /* Sign In Root */,
@@ -82,6 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				2029EA5F19B8235C00CF129B /* CreateAccountViewController.swift */,
+				2029EA6619B8373B00CF129B /* CreateAccount2ViewController.swift */,
+				2029EA6819B8386800CF129B /* CreateAccount3ViewController.swift */,
+				2029EA6A19B8399400CF129B /* CreateAccount4ViewController.swift */,
+				2029EA6C19B83A4B00CF129B /* CreateAccount5ViewController.swift */,
+				2029EA6E19B83BFE00CF129B /* CreateAccountTermsViewController.swift */,
 			);
 			name = "Create Account";
 			sourceTree = "<group>";
@@ -115,6 +133,14 @@
 				2029EA5B19B8223F00CF129B /* SignInRootViewController.swift */,
 			);
 			name = "Sign In Root";
+			sourceTree = "<group>";
+		};
+		2029EA6319B8351600CF129B /* Terms */ = {
+			isa = PBXGroup;
+			children = (
+				2029EA6419B8362D00CF129B /* TermsViewController.swift */,
+			);
+			name = Terms;
 			sourceTree = "<group>";
 		};
 		20FFD63219B80B8100C42B9A = {
@@ -320,9 +346,15 @@
 				2029EA6019B8235C00CF129B /* CreateAccountViewController.swift in Sources */,
 				2029EA5E19B822F400CF129B /* CreateAccountRootViewController.swift in Sources */,
 				2029EA6219B823E800CF129B /* SignInViewController.swift in Sources */,
+				2029EA6919B8386800CF129B /* CreateAccount3ViewController.swift in Sources */,
+				2029EA6F19B83BFE00CF129B /* CreateAccountTermsViewController.swift in Sources */,
+				2029EA6D19B83A4B00CF129B /* CreateAccount5ViewController.swift in Sources */,
+				2029EA6719B8373B00CF129B /* CreateAccount2ViewController.swift in Sources */,
+				2029EA6B19B8399400CF129B /* CreateAccount4ViewController.swift in Sources */,
 				20FFD64319B80B8100C42B9A /* ViewController.swift in Sources */,
 				20FFD64119B80B8100C42B9A /* AppDelegate.swift in Sources */,
 				2029EA5C19B8223F00CF129B /* SignInRootViewController.swift in Sources */,
+				2029EA6519B8362D00CF129B /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
