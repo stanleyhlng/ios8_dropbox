@@ -19,6 +19,7 @@
 		2029EA6F19B83BFE00CF129B /* CreateAccountTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA6E19B83BFE00CF129B /* CreateAccountTermsViewController.swift */; };
 		2029EA7119B83E5600CF129B /* SignIn2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA7019B83E5600CF129B /* SignIn2ViewController.swift */; };
 		2029EA7319B83F6800CF129B /* SignInConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA7219B83F6800CF129B /* SignInConfirmationViewController.swift */; };
+		2029EA7619B8489F00CF129B /* SettingsFromNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029EA7519B8489F00CF129B /* SettingsFromNewAccountViewController.swift */; };
 		20FFD64119B80B8100C42B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FFD64019B80B8100C42B9A /* AppDelegate.swift */; };
 		20FFD64319B80B8100C42B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FFD64219B80B8100C42B9A /* ViewController.swift */; };
 		20FFD64619B80B8100C42B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FFD64419B80B8100C42B9A /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		2029EA6E19B83BFE00CF129B /* CreateAccountTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountTermsViewController.swift; sourceTree = "<group>"; };
 		2029EA7019B83E5600CF129B /* SignIn2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn2ViewController.swift; sourceTree = "<group>"; };
 		2029EA7219B83F6800CF129B /* SignInConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInConfirmationViewController.swift; sourceTree = "<group>"; };
+		2029EA7519B8489F00CF129B /* SettingsFromNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsFromNewAccountViewController.swift; sourceTree = "<group>"; };
 		20FFD63B19B80B8100C42B9A /* ios8_dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios8_dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FFD63F19B80B8100C42B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20FFD64019B80B8100C42B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		2029EA5419B81DF200CF129B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2029EA7419B8484B00CF129B /* Settings */,
 				2029EA6319B8351600CF129B /* Terms */,
 				2029EA5719B81EFE00CF129B /* Sign out */,
 				2029EA5619B81E1500CF129B /* Sign In */,
@@ -147,6 +150,14 @@
 				2029EA6419B8362D00CF129B /* TermsViewController.swift */,
 			);
 			name = Terms;
+			sourceTree = "<group>";
+		};
+		2029EA7419B8484B00CF129B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2029EA7519B8489F00CF129B /* SettingsFromNewAccountViewController.swift */,
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 		20FFD63219B80B8100C42B9A = {
@@ -360,6 +371,7 @@
 				2029EA6B19B8399400CF129B /* CreateAccount4ViewController.swift in Sources */,
 				2029EA7319B83F6800CF129B /* SignInConfirmationViewController.swift in Sources */,
 				20FFD64319B80B8100C42B9A /* ViewController.swift in Sources */,
+				2029EA7619B8489F00CF129B /* SettingsFromNewAccountViewController.swift in Sources */,
 				20FFD64119B80B8100C42B9A /* AppDelegate.swift in Sources */,
 				2029EA5C19B8223F00CF129B /* SignInRootViewController.swift in Sources */,
 				2029EA6519B8362D00CF129B /* TermsViewController.swift in Sources */,
