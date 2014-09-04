@@ -703,6 +703,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fhy-vh-gZf">
+                                        <rect key="frame" x="0.0" y="201" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="PSW-Sa-3ph" kind="modal" modalTransitionStyle="crossDissolve" id="3Nb-QX-1X0"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -712,6 +722,7 @@
                     <connections>
                         <outlet property="contentImageView" destination="M1v-ex-mlq" id="h1W-7Y-tuF"/>
                         <outlet property="scrollView" destination="mhp-fI-qgF" id="NGZ-u4-G2J"/>
+                        <outlet property="signOutButton" destination="fhy-vh-gZf" id="heC-18-vpH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqI-Hx-qNT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -974,6 +985,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rDd-dA-tJ7">
+                                        <rect key="frame" x="0.0" y="201" width="333" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="PSW-Sa-3ph" kind="modal" modalTransitionStyle="crossDissolve" id="f1J-fG-YFP"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -983,6 +1004,7 @@
                     <connections>
                         <outlet property="contentImageView" destination="SES-Xr-t9T" id="gCo-xv-hzC"/>
                         <outlet property="scrollView" destination="oH5-OP-CG0" id="uN5-Cu-b7m"/>
+                        <outlet property="signOutButton" destination="rDd-dA-tJ7" id="v3r-ML-jrD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WF7-x8-86I" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1123,9 +1145,9 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="Qed-af-Ojw"/>
-        <segue reference="FZ1-pR-C87"/>
         <segue reference="SEf-5r-TUZ"/>
         <segue reference="DTV-Qd-TsY"/>
         <segue reference="KMS-Iy-FB4"/>
+        <segue reference="f1J-fG-YFP"/>
     </inferredMetricsTieBreakers>
 </document>

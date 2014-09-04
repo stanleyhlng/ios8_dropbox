@@ -12,6 +12,7 @@ class SettingsFromNewAccountViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var contentImageView: UIImageView!
+    @IBOutlet weak var signOutButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,7 @@ class SettingsFromNewAccountViewController: UIViewController {
         
         scrollView.contentSize = CGSizeMake(contentImageView.frame.width, contentImageView.frame.height)
         
+        signOutButton.frame.origin.y = contentImageView.frame.height - 80
     }
 
     override func didReceiveMemoryWarning() {
