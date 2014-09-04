@@ -65,6 +65,26 @@
             <point key="canvasLocation" x="592" y="385"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="gRG-Cs-kly">
+            <objects>
+                <viewController id="MzC-9g-SjC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EiV-Kq-4Ej">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logged_out" id="Ynl-EK-b2x">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yYb-Rc-HYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="395"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="1Gj-XT-4dD">
             <objects>
                 <viewController id="5BN-hy-JSP" sceneMemberID="viewController">
@@ -84,8 +104,71 @@
             </objects>
             <point key="canvasLocation" x="1020" y="385"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="RHr-yF-02S">
+            <objects>
+                <viewController id="yJb-Wc-6z9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hqD-sc-SS6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logged_out" id="j7R-6b-J2N">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WLz-3g-dIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="1094"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="294-fT-x8b">
+            <objects>
+                <viewController id="Ab1-e1-uR6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zjF-gp-4iN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create_account" id="NGo-Rp-Wf7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TJk-Fg-2SJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2213" y="395"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6qy-Zv-Ni0">
+            <objects>
+                <viewController id="dya-wz-xH5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1V4-yK-QSl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in1" id="3rz-lU-uWb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lRc-pM-sXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2213" y="1094"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="create_account" width="320" height="568"/>
+        <image name="logged_out" width="320" height="568"/>
+        <image name="sign_in1" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
