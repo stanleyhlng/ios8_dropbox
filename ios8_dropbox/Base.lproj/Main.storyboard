@@ -321,6 +321,16 @@
                                     <segue destination="Cyg-pd-QLd" kind="modal" animates="NO" id="pJf-5B-deh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mLn-iz-RMZ">
+                                <rect key="frame" x="70" y="200" width="180" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yta-Rc-ftT" kind="modal" animates="NO" id="KMS-Iy-FB4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -368,6 +378,16 @@
                                 </state>
                                 <connections>
                                     <segue destination="yta-Rc-ftT" kind="modal" animates="NO" id="qrF-Df-QT8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zyC-2p-ent">
+                                <rect key="frame" x="70" y="198" width="180" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yta-Rc-ftT" kind="modal" animates="NO" id="a7g-V9-jSy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1102,9 +1122,10 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="DTV-Qd-TsY"/>
-        <segue reference="SEf-5r-TUZ"/>
-        <segue reference="FZ1-pR-C87"/>
         <segue reference="Qed-af-Ojw"/>
+        <segue reference="FZ1-pR-C87"/>
+        <segue reference="SEf-5r-TUZ"/>
+        <segue reference="DTV-Qd-TsY"/>
+        <segue reference="KMS-Iy-FB4"/>
     </inferredMetricsTieBreakers>
 </document>
