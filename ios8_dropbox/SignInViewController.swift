@@ -14,7 +14,7 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        println("SignInViewController - viewDidLoad");
+        println("SignInViewController - viewDidLoad")
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +22,10 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onBack(sender: UIButton) {
+        println("SignInViewController - onBack")
+        dismissViewControllerAnimated(false, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

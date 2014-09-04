@@ -15,6 +15,7 @@ class CreateAccountRootViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         println("CreateAccountRootViewController - viewDidLoad");
+        performSegueWithIdentifier("CreateAccountFromCreateAccountRootSegue", sender: self);
     }
 
     override func didReceiveMemoryWarning() {

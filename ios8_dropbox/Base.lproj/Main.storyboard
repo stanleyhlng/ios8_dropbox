@@ -83,7 +83,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ab1-e1-uR6" kind="push" id="SEf-5r-TUZ"/>
+                                    <segue destination="Ab1-e1-uR6" kind="push" identifier="CreateAccountFromCreateAccountRootSegue" id="SEf-5r-TUZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7HC-4S-wPS">
@@ -164,7 +164,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ab1-e1-uR6" kind="push" id="y4U-qp-eX8"/>
+                                    <segue destination="Ab1-e1-uR6" kind="push" identifier="" id="y4U-qp-eX8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ywL-rQ-lZF">
@@ -174,7 +174,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dya-wz-xH5" kind="push" id="qH9-K3-keJ"/>
+                                    <segue destination="dya-wz-xH5" kind="push" identifier="SignInFromSignInRootSegue" id="qH9-K3-keJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -204,6 +204,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onBack:" destination="Ab1-e1-uR6" eventType="touchUpInside" id="ZLO-bQ-2da"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -232,6 +235,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onBack:" destination="dya-wz-xH5" eventType="touchUpInside" id="Hqu-k3-39Y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -296,7 +302,7 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Qed-af-Ojw"/>
-        <segue reference="SEf-5r-TUZ"/>
+        <segue reference="y4U-qp-eX8"/>
+        <segue reference="qH9-K3-keJ"/>
     </inferredMetricsTieBreakers>
 </document>

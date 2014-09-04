@@ -14,7 +14,7 @@ class CreateAccountViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        println("CreateAccountViewController - viewDidLoad");
+        println("CreateAccountViewController - viewDidLoad")
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +22,10 @@ class CreateAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onBack(sender: UIButton) {
+        println("CreateAccountViewController - onBack")
+        dismissViewControllerAnimated(false, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
