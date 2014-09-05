@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,7 +77,7 @@
         <!--Create Account Root View Controller-->
         <scene sceneID="gRG-Cs-kly">
             <objects>
-                <viewController id="MzC-9g-SjC" customClass="CreateAccountRootViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MzC-9g-SjC" customClass="CreateAccountRootViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EiV-Kq-4Ej">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,7 +158,7 @@
         <!--Sign In Root View Controller-->
         <scene sceneID="RHr-yF-02S">
             <objects>
-                <viewController id="yJb-Wc-6z9" customClass="SignInRootViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yJb-Wc-6z9" customClass="SignInRootViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hqD-sc-SS6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -173,9 +173,6 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="Ab1-e1-uR6" kind="push" identifier="" id="y4U-qp-eX8"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ywL-rQ-lZF">
                                 <rect key="frame" x="0.0" y="425" width="320" height="40"/>
@@ -199,7 +196,7 @@
         <!--Create Account View Controller-->
         <scene sceneID="294-fT-x8b">
             <objects>
-                <viewController id="Ab1-e1-uR6" customClass="CreateAccountViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ab1-e1-uR6" customClass="CreateAccountViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zjF-gp-4iN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,7 +237,7 @@
         <!--Create Account2 View Controller-->
         <scene sceneID="FGc-ht-Oyl">
             <objects>
-                <viewController id="Uuk-OU-jYY" customClass="CreateAccount2ViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Uuk-OU-jYY" customClass="CreateAccount2ViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zqs-Yh-qHE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,7 +253,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onBack:" destination="Ab1-e1-uR6" eventType="touchUpInside" id="TSr-Fv-hmA"/>
                                     <action selector="onBack:" destination="Uuk-OU-jYY" eventType="touchUpInside" id="jGR-Ke-Kun"/>
                                 </connections>
                             </button>
@@ -292,7 +288,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="6qy-Zv-Ni0">
             <objects>
-                <viewController id="dya-wz-xH5" customClass="SignInViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dya-wz-xH5" customClass="SignInViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1V4-yK-QSl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -343,7 +339,7 @@
         <!--Sign In2 View Controller-->
         <scene sceneID="fb4-xd-nOM">
             <objects>
-                <viewController id="Cyg-pd-QLd" customClass="SignIn2ViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cyg-pd-QLd" customClass="SignIn2ViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uR8-xz-IN9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -401,7 +397,7 @@
         <!--Sign In Confirmation View Controller-->
         <scene sceneID="7sr-HU-wKp">
             <objects>
-                <viewController id="yta-Rc-ftT" customClass="SignInConfirmationViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yta-Rc-ftT" customClass="SignInConfirmationViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bCb-Vb-Bb9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -477,7 +473,7 @@
         <!--Create Account3 View Controller-->
         <scene sceneID="sji-3u-Ipl">
             <objects>
-                <viewController id="Cuw-qe-Sxt" customClass="CreateAccount3ViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cuw-qe-Sxt" customClass="CreateAccount3ViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="48Q-Bv-Vcr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -493,7 +489,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onBack:" destination="Ab1-e1-uR6" eventType="touchUpInside" id="5ND-k8-bJ6"/>
                                     <action selector="onBack:" destination="Uuk-OU-jYY" eventType="touchUpInside" id="aex-4r-5jo"/>
                                     <action selector="onBack:" destination="Cuw-qe-Sxt" eventType="touchUpInside" id="yYy-jh-2We"/>
                                 </connections>
@@ -530,7 +525,7 @@
         <!--Create Account4 View Controller-->
         <scene sceneID="kFQ-Rk-6NA">
             <objects>
-                <viewController id="YxX-3X-1qX" customClass="CreateAccount4ViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YxX-3X-1qX" customClass="CreateAccount4ViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vjo-iB-c2J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -558,7 +553,6 @@
                                 <connections>
                                     <action selector="onBack:" destination="Cuw-qe-Sxt" eventType="touchUpInside" id="KbI-Vj-0qY"/>
                                     <action selector="onBack:" destination="YxX-3X-1qX" eventType="touchUpInside" id="NM7-lp-hKN"/>
-                                    <action selector="onBack:" destination="Ab1-e1-uR6" eventType="touchUpInside" id="T3T-vq-Yj7"/>
                                     <action selector="onBack:" destination="Uuk-OU-jYY" eventType="touchUpInside" id="alD-g5-7jb"/>
                                 </connections>
                             </button>
@@ -583,7 +577,7 @@
         <!--Create Account5 View Controller-->
         <scene sceneID="WKg-kA-ies">
             <objects>
-                <viewController id="sFI-Xv-qqc" customClass="CreateAccount5ViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sFI-Xv-qqc" customClass="CreateAccount5ViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qjG-Bt-Liu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -611,7 +605,6 @@
                                 <connections>
                                     <action selector="onBack:" destination="YxX-3X-1qX" eventType="touchUpInside" id="C7e-Vn-krG"/>
                                     <action selector="onBack:" destination="sFI-Xv-qqc" eventType="touchUpInside" id="YCq-wn-T8M"/>
-                                    <action selector="onBack:" destination="Ab1-e1-uR6" eventType="touchUpInside" id="ZIA-Ar-Ps5"/>
                                     <action selector="onBack:" destination="Cuw-qe-Sxt" eventType="touchUpInside" id="qBq-Nn-Bya"/>
                                     <action selector="onBack:" destination="Uuk-OU-jYY" eventType="touchUpInside" id="s9N-o5-dIb"/>
                                 </connections>
@@ -690,7 +683,7 @@
         <!--Settings-->
         <scene sceneID="1fc-Io-7uo">
             <objects>
-                <viewController id="NJH-i0-r4R" customClass="SettingsFromNewAccountViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NJH-i0-r4R" customClass="SettingsFromNewAccountViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Fs-hi-hiM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -753,7 +746,7 @@
         <!--Create Account Terms View Controller-->
         <scene sceneID="Kdy-fc-zrF">
             <objects>
-                <viewController id="4Dw-x8-noC" customClass="CreateAccountTermsViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4Dw-x8-noC" customClass="CreateAccountTermsViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PYX-15-Ywa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -803,7 +796,7 @@
         <!--Terms View Controller-->
         <scene sceneID="kRd-5P-obf">
             <objects>
-                <viewController id="VB8-aK-PNo" customClass="TermsViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VB8-aK-PNo" customClass="TermsViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Y3-vL-n2g">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -972,7 +965,7 @@
         <!--Settings-->
         <scene sceneID="O0m-tW-pS2">
             <objects>
-                <viewController id="lrR-f8-bMi" customClass="SettingsFromExistingAccountViewController" customModule="ios8_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lrR-f8-bMi" customClass="SettingsFromExistingAccountViewController" customModule="ios8_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rUc-It-Rn1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1144,10 +1137,9 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Qed-af-Ojw"/>
-        <segue reference="SEf-5r-TUZ"/>
-        <segue reference="DTV-Qd-TsY"/>
-        <segue reference="KMS-Iy-FB4"/>
-        <segue reference="f1J-fG-YFP"/>
+        <segue reference="qwQ-lu-aRk"/>
+        <segue reference="3Nb-QX-1X0"/>
+        <segue reference="qH9-K3-keJ"/>
+        <segue reference="qrF-Df-QT8"/>
     </inferredMetricsTieBreakers>
 </document>
