@@ -25,7 +25,7 @@ The purpose of this homework is to use Xcode to implement the flow between the s
 * [] Optional: You should be able to swipe through the welcome screens instead of just tapping them.
 
 ## Time spent
-x hours spent in total
+8 hours spent in total
 
 ## Libraries
 ```
