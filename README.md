@@ -20,9 +20,9 @@ The purpose of this homework is to use Xcode to implement the flow between the s
 * [x] User can follow the sign in flow.
 * [x] User can tap the area for "Having trouble signing in?"
 * [x] User can log out from the Settings screen.
-* [] Optional: Add a detail view for one of the files and implement favoriting the file.
-* [] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
-* [] Optional: You should be able to swipe through the welcome screens instead of just tapping them.
+* [ ] Optional: Add a detail view for one of the files and implement favoriting the file.
+* [ ] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+* [ ] Optional: You should be able to swipe through the welcome screens instead of just tapping them.
 
 ## Time spent
 8 hours spent in total
